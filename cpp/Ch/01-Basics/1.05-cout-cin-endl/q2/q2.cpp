@@ -1,15 +1,13 @@
 #include <iostream>
 
-// Asks user for 3 inputs. Output those inputs in a sentence.
 int main() {
     std::cout << "Enter three numbers: ";
-
-    int a{};
-    int b{};
-    int c{};
+    int a = 0;
+    int b = 0;
+    int c = 0;
     std::cin >> a >> b >> c;
 
-    std::cout << "You entered " << a << ", " << b << ", and " << c << "." << std::endl;
+    std::cout << "You entered " << a << ", " << b << ", and " << c << ".\n";
 
     return 0;
 }
